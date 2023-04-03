@@ -1,7 +1,7 @@
 // store/blocks/home.jsonc
 {
   "store.home": {
-    "blocks": ["rich-text", "info-card#button-right", "info-card#button-left","flex-layout.row"]
+    "blocks": ["rich-text","category-menu", "info-card#button-right", "info-card#button-left","flex-layout.row"]
   },
   //...,
   "info-card#button-right": {
@@ -55,6 +55,15 @@
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
       "maxWidth": "100%"
     }
+  },
+    "category-menu": {
+      "props": {
+        "showAllDepartments": true,
+        "showSubcategories": true,
+        "menuDisposition": "center",
+        "departments": [],
+        "sortSubcategories": "name"
+      }
   }
 
 }
