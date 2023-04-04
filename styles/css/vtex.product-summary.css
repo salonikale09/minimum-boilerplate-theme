@@ -1,3 +1,12 @@
-/* .imageNormal{
+.productNameContainer{
+    color: #A70033;
+    -webkit-text-stroke: medium;
+}
 
-} */
+.imageNormal {
+    object-fit: cover !important;
+}
+
+.nameContainer--myCustomSummary {
+    padding: 0;
+}

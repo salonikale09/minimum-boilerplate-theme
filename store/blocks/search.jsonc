@@ -1,4 +1,3 @@
-// store/blocks/search.jsonc
 {
   "store.search": {
     "blocks": ["search-result-layout"]
@@ -21,5 +20,55 @@
       "filter-navigator.v3",
       "search-fetch-more"
     ]
+
+  },
+  "search-content":{
+    "blocks":["gallery","not-found"]
+  },
+  "gallery":{
+    "blocks":["product-summary.shelf"]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-price",
+      "product-summary-name",
+      "product-summary-sku-selector"
+    ]
   }
 }
+
+// {
+//   "store.search": {
+//     "blocks": ["search-result-layout"]
+//   },
+//   "search-result-layout": {
+//     "blocks": [
+//       "search-result-layout.desktop",
+//       "search-result-layout.mobile",
+//       "search-not-found-layout"
+//     ]
+//   },
+//   "search-result-layout.desktop": {
+//     "children": [
+//       "breadcrumb.search",
+//       "search-title.v2",
+//       "total-products.v2",
+//       "order-by.v2",
+//       {
+//         "component": "gallery",
+//         "props": {
+//           "itemsPerRow": {
+//             "desktop": 5,
+//             "tablet": 3,
+//             "phone": 2
+//           }
+//         }
+//       },
+//       "filter-navigator.v3",
+//       "search-fetch-previous",
+//       "search-fetch-more"
+//     ]
+//   }
+// }

@@ -1,0 +1,14 @@
+.sellingPrice {
+    font-size: larger;
+    font-weight: bold;
+    text-align: left;
+}
+
+.sellingPriceLabel {
+    vertical-align: super;
+    font-size: small;
+}
+
+.listPrice{
+    text-align: left;
+}
