@@ -3,9 +3,10 @@
     -webkit-text-stroke: medium;
 }
 
-.imageNormal {
-    object-fit: cover !important;
-}
+/* .imageNormal {
+    /* width: 500px;
+    height: 500px; 
+} */
 
 .nameContainer--myCustomSummary {
     padding: 0;
